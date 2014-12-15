@@ -323,3 +323,7 @@ body {
     background: #fff;
     border-radius: 5px;
 }
+
+header img {
+    width: 100%;
+}
