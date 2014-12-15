@@ -6,12 +6,36 @@ body {
 
 .navbar-default {
   background: rgba(255, 255, 255, .8)!important;
+  .navbar-brand {
+    color: rgb(255, 0, 0);
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .navbar-nav {
+    > li {
+      &:hover {
+        background:rgba(255, 0, 0, 0.9);
+          
+          a {
+            color: #fff;  
+          }
+      }
+      &.open, &.active {
+        > a, > a:hover, > a:focus {
+          background:rgba(255, 0, 0, 0.9);
+          color: #fff;
+        }
+      }  
+    }
+    
+  }
 }
 
+
 .shadowed {  
-  -moz-box-shadow:3px 3px 5px rgba(255, 0, 0, 0.5);
-  -webkit-box-shadow:3px 3px 5px rgba(255, 0, 0, 0.5);
-  box-shadow:3px 3px 5px rgba(255, 0, 0, 0.5);
+  -moz-box-shadow:3px 3px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow:3px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow:3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 .full {
@@ -21,9 +45,13 @@ body {
 .container {
   header {
       margin-bottom: 20px;      
+      
+      
       img {
-        width: 100%;
-    }
+          width: 100%;
+          border-radius: 5px;
+          .shadowed;  
+      }
   }
   .content-box {
       background: rgba(255,255,255, .9);
@@ -33,6 +61,15 @@ body {
       margin-right: auto;
       margin-left: auto;
       .shadowed;
+
+      p {
+        text-align: justify;
+      }
+
+      .blog-title {
+        color: rgb(255, 0, 0);
+        font-size: 3em;
+      }
   }
 
 
