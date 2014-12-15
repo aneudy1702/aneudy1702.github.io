@@ -1,22 +1,22 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans');
 
-
-/*body {
-  font: 14px/1 'Open Sans', sans-serif;
-  color: #555;
-  background: #e5e5e5;
-}*/
-/*Stop abuse style specifics*/
 body {
-
     background-image: url(http://www.mountainvalleyliving.com/online/wp-content/uploads/2012/09/Handprint-gift-wrap.jpg);
 }
+
 .navbar-default {
   background: rgba(255, 255, 255, .8)!important;
 }
 
+.shadowed {  
+  -moz-box-shadow:3px 3px 5px rgba(255, 0, 0, 0.5);
+  -webkit-box-shadow:3px 3px 5px rgba(255, 0, 0, 0.5);
+  box-shadow:3px 3px 5px rgba(255, 0, 0, 0.5);
+}
+
 .container {
   header {
+      margin-bottom: 20px;      
       img {
         width: 100%;
     }
@@ -28,6 +28,7 @@ body {
       padding-left: 15px;
       margin-right: auto;
       margin-left: auto;
+      .shadowed;
   }
 
 
@@ -35,9 +36,11 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 5px;
-    background: #fff;
-    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background: rgba(255,255,255, .9);
+    .shadowed;
+    
     text-align: center;
+    border-radius: 5px;
 
     > div {
       position: relative;
@@ -62,9 +65,6 @@ body {
       }
     }
   }
-  
-
-
   /*h1 {
     margin: 40px 0;
     font-size: 24px;
@@ -76,7 +76,7 @@ body {
     .container {
       .gallery {
         > div {
-          max-width: 25%;
+          max-width: 30%;
         }
       }
     }

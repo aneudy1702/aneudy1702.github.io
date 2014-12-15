@@ -302,23 +302,3 @@ textarea {
         page-break-after: avoid;
     }
 }
-
-
-/*Stop abuse style specifics*/
-body {
-
-    background-image: url(http://www.mountainvalleyliving.com/online/wp-content/uploads/2012/09/Handprint-gift-wrap.jpg);
-}
-
-.content-box {
-    background: rgba(255,255,255, .9);
-    border-radius: 5px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-header img {
-    width: 100%;
-}
