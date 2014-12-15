@@ -8,21 +8,24 @@
 }*/
 
 .gallery {
-  width: 640px;
+  width: 100%;
   margin: 0 auto;
   padding: 5px;
   background: #fff;
   box-shadow: 0 1px 1px rgba(0,0,0,.1);
+  text-align: center;
 }
 
 .gallery > div {
   position: relative;
-  float: left;
+  display: inline-block;
   padding: 5px;
+  max-width: 15%;
+  min-width: 97px;
 }
 
 .gallery > div > a img {
-  width: 200px;
+  width: 100%;
   transition: .1s transform;
   transform: translateZ(0); /* hack */
 }
@@ -45,6 +48,8 @@
 .cf:after {
   clear: both;
 }
+
+@media (min-width: @screen-sm-min) {  }
 
 /*h1 {
   margin: 40px 0;
