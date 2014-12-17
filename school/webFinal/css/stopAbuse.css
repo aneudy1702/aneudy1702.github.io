@@ -19,6 +19,12 @@ body {
     margin: 5px -10px 0px 20px;
   }
 }
+.rounded-bottom {
+  border-radius:  0 0 5px 5px;
+}
+.rounded {
+  border-radius: 5px;
+}
 
 .navbar-default .navbar-nav > li:hover {
   background: rgba(255, 0, 0, 0.9);
