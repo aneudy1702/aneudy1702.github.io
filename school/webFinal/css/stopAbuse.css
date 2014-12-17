@@ -12,7 +12,7 @@ body {
 }
 .navbar-toggle ~ img.logo {
   float: left;
-  margin: 5px 10px 0 0;
+  margin: 5px 10px 0 5px;
 }
 .navbar-default .navbar-nav > li:hover {
   background: rgba(255, 0, 0, 0.9);
