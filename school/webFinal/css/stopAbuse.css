@@ -1,0 +1,108 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+body {
+  background-image: url(http://www.mountainvalleyliving.com/online/wp-content/uploads/2012/09/Handprint-gift-wrap.jpg);
+}
+.navbar-default {
+  background: rgba(255, 255, 255, 0.8) !important;
+}
+.navbar-default .navbar-brand {
+  color: #ff0000;
+  font-size: 17px;
+  font-weight: bold;
+}
+.navbar-default .navbar-nav > li:hover {
+  background: rgba(255, 0, 0, 0.9);
+}
+.navbar-default .navbar-nav > li:hover a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li.open > a,
+.navbar-default .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li.open > a:hover,
+.navbar-default .navbar-nav > li.active > a:hover,
+.navbar-default .navbar-nav > li.open > a:focus,
+.navbar-default .navbar-nav > li.active > a:focus {
+  background: rgba(255, 0, 0, 0.9);
+  color: #fff;
+}
+.shadowed {
+  -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+.full {
+  width: 100%;
+}
+.container {
+  /*h1 {
+    margin: 40px 0;
+    font-size: 24px;
+    text-align: center;
+  }*/
+
+}
+.container header {
+  margin-bottom: 20px;
+}
+.container header img {
+  width: 100%;
+  border-radius: 5px;
+  -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+.container .content-box {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+.container .content-box p {
+  text-align: justify;
+}
+.container .content-box .blog-title {
+  color: #ff0000;
+  font-size: 3em;
+}
+.container .gallery {
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.9);
+  -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  border-radius: 5px;
+}
+.container .gallery > div {
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  max-width: 15%;
+  min-width: 97px;
+}
+.container .gallery > div:hover {
+  z-index: 1;
+}
+.container .gallery > div:hover > a img {
+  transform: scale(1.8, 1.8);
+  transition: .3s transform;
+}
+.container .gallery > div > a img {
+  width: 100%;
+  transition: .1s transform;
+  transform: translateZ(0);
+  /* hack */
+
+}
+@media (max-width: 728px) {
+  .container .gallery > div {
+    max-width: 30%;
+  }
+}
