@@ -14,6 +14,12 @@ body {
   float: left;
   margin: 5px 10px 0 5px;
 }
+@media (max-width: 768px) {
+  .navbar-toggle ~ img.logo {    
+    margin: 5px -10px 0px 20px;
+  }
+}
+
 .navbar-default .navbar-nav > li:hover {
   background: rgba(255, 0, 0, 0.9);
 }
