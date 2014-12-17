@@ -1,6 +1,6 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans');
 body {
-  background-image: url(http://www.mountainvalleyliving.com/online/wp-content/uploads/2012/09/Handprint-gift-wrap.jpg);
+  background-image: url(http://img-w.zeebox.com/600x300/z/a3689840-2091-40cf-a5d2-2595a4adb115.jpg);
 }
 .navbar-default {
   background: rgba(255, 255, 255, 0.8) !important;
@@ -9,6 +9,10 @@ body {
   color: #ff0000;
   font-size: 17px;
   font-weight: bold;
+}
+.navbar-toggle ~ img.logo {
+  float: left;
+  margin: 5px 10px 0 0;
 }
 .navbar-default .navbar-nav > li:hover {
   background: rgba(255, 0, 0, 0.9);
