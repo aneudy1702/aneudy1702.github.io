@@ -2,6 +2,23 @@
 body {
   background-image: url(http://img-w.zeebox.com/600x300/z/a3689840-2091-40cf-a5d2-2595a4adb115.jpg);
 }
+body.dark {
+  background-image: url(../img/dark.jpg);
+}
+
+body.color {
+  background-image: url(../img/color.jpeg);
+}
+body.fire {
+  background-image: url(../img/fire.jpeg);
+}
+body.regular {
+  background-image: url(http://img-w.zeebox.com/600x300/z/a3689840-2091-40cf-a5d2-2595a4adb115.jpg);
+}
+
+body {
+  transition: background 1s ease;  
+}
 .navbar-default {
   background: rgba(255, 255, 255, 0.8) !important;
 }
