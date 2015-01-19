@@ -1,5 +1,5 @@
 {
-  "name"         : "sazon latino",
+  "name"         : "sazon_latino",
   "version"      : "0.0.0",
   "description"  : "this is a single page app built with node.js, express, angularjs, and mongoose",
   "main"         : "server.js",
