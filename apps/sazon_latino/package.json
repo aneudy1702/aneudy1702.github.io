@@ -1,9 +1,9 @@
 {
-  "name"         : "node-todo",
+  "name"         : "sazon latino",
   "version"      : "0.0.0",
-  "description"  : "Simple todo application.",
+  "description"  : "this is a single page app built with node.js, express, angularjs, and mongoose",
   "main"         : "server.js",
-  "author"       : "Scotch",
+  "author"       : "Aneudy Abreu",
   "dependencies" : {
     "express"    : "~4.7.2",
     "mongoose"   : "~3.6.2",
